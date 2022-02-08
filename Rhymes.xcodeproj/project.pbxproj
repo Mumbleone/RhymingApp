@@ -1,0 +1,370 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3FE7307A262E2FA40087F68A /* Rhyme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE73079262E2FA40087F68A /* Rhyme.swift */; };
+		3FE7307D262E2FDD0087F68A /* RhymesResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE7307C262E2FDD0087F68A /* RhymesResponse.swift */; };
+		3FE73080262E30590087F68A /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE7307F262E30590087F68A /* ViewModel.swift */; };
+		FF7E2C08262DCF1B004ADF9D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7E2C07262DCF1B004ADF9D /* AppDelegate.swift */; };
+		FF7E2C0A262DCF1B004ADF9D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7E2C09262DCF1B004ADF9D /* SceneDelegate.swift */; };
+		FF7E2C0C262DCF1B004ADF9D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7E2C0B262DCF1B004ADF9D /* ViewController.swift */; };
+		FF7E2C0F262DCF1B004ADF9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF7E2C0D262DCF1B004ADF9D /* Main.storyboard */; };
+		FF7E2C11262DCF1C004ADF9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF7E2C10262DCF1C004ADF9D /* Assets.xcassets */; };
+		FF7E2C14262DCF1C004ADF9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF7E2C12262DCF1C004ADF9D /* LaunchScreen.storyboard */; };
+		FF7E2C1E262DD10B004ADF9D /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7E2C1D262DD10B004ADF9D /* ApiClient.swift */; };
+		FF7E2C2A262DD2F1004ADF9D /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7E2C29262DD2F1004ADF9D /* Repository.swift */; };
+		FF7E2C33262E231A004ADF9D /* RhymesApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7E2C32262E231A004ADF9D /* RhymesApi.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3FE73079262E2FA40087F68A /* Rhyme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rhyme.swift; sourceTree = "<group>"; };
+		3FE7307C262E2FDD0087F68A /* RhymesResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RhymesResponse.swift; sourceTree = "<group>"; };
+		3FE7307F262E30590087F68A /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		FF7E2C04262DCF1B004ADF9D /* Rhymes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rhymes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF7E2C07262DCF1B004ADF9D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FF7E2C09262DCF1B004ADF9D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FF7E2C0B262DCF1B004ADF9D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FF7E2C0E262DCF1B004ADF9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF7E2C10262DCF1C004ADF9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF7E2C13262DCF1C004ADF9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FF7E2C15262DCF1C004ADF9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF7E2C1D262DD10B004ADF9D /* ApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiClient.swift; sourceTree = "<group>"; };
+		FF7E2C29262DD2F1004ADF9D /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		FF7E2C32262E231A004ADF9D /* RhymesApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RhymesApi.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF7E2C01262DCF1B004ADF9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF7E2BFB262DCF1B004ADF9D = {
+			isa = PBXGroup;
+			children = (
+				FF7E2C06262DCF1B004ADF9D /* Rhymes */,
+				FF7E2C05262DCF1B004ADF9D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF7E2C05262DCF1B004ADF9D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF7E2C04262DCF1B004ADF9D /* Rhymes.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF7E2C06262DCF1B004ADF9D /* Rhymes */ = {
+			isa = PBXGroup;
+			children = (
+				FF7E2C07262DCF1B004ADF9D /* AppDelegate.swift */,
+				FF7E2C09262DCF1B004ADF9D /* SceneDelegate.swift */,
+				FF7E2C1D262DD10B004ADF9D /* ApiClient.swift */,
+				FF7E2C29262DD2F1004ADF9D /* Repository.swift */,
+				FF7E2C32262E231A004ADF9D /* RhymesApi.swift */,
+				FF7E2C0B262DCF1B004ADF9D /* ViewController.swift */,
+				FF7E2C0D262DCF1B004ADF9D /* Main.storyboard */,
+				FF7E2C10262DCF1C004ADF9D /* Assets.xcassets */,
+				FF7E2C12262DCF1C004ADF9D /* LaunchScreen.storyboard */,
+				FF7E2C15262DCF1C004ADF9D /* Info.plist */,
+				3FE73079262E2FA40087F68A /* Rhyme.swift */,
+				3FE7307F262E30590087F68A /* ViewModel.swift */,
+				3FE7307C262E2FDD0087F68A /* RhymesResponse.swift */,
+			);
+			path = Rhymes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF7E2C03262DCF1B004ADF9D /* Rhymes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF7E2C18262DCF1C004ADF9D /* Build configuration list for PBXNativeTarget "Rhymes" */;
+			buildPhases = (
+				FF7E2C00262DCF1B004ADF9D /* Sources */,
+				FF7E2C01262DCF1B004ADF9D /* Frameworks */,
+				FF7E2C02262DCF1B004ADF9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Rhymes;
+			productName = Rhymes;
+			productReference = FF7E2C04262DCF1B004ADF9D /* Rhymes.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF7E2BFC262DCF1B004ADF9D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					FF7E2C03262DCF1B004ADF9D = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = FF7E2BFF262DCF1B004ADF9D /* Build configuration list for PBXProject "Rhymes" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF7E2BFB262DCF1B004ADF9D;
+			productRefGroup = FF7E2C05262DCF1B004ADF9D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF7E2C03262DCF1B004ADF9D /* Rhymes */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF7E2C02262DCF1B004ADF9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF7E2C14262DCF1C004ADF9D /* LaunchScreen.storyboard in Resources */,
+				FF7E2C11262DCF1C004ADF9D /* Assets.xcassets in Resources */,
+				FF7E2C0F262DCF1B004ADF9D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF7E2C00262DCF1B004ADF9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FE7307A262E2FA40087F68A /* Rhyme.swift in Sources */,
+				3FE73080262E30590087F68A /* ViewModel.swift in Sources */,
+				FF7E2C0C262DCF1B004ADF9D /* ViewController.swift in Sources */,
+				FF7E2C2A262DD2F1004ADF9D /* Repository.swift in Sources */,
+				FF7E2C08262DCF1B004ADF9D /* AppDelegate.swift in Sources */,
+				FF7E2C33262E231A004ADF9D /* RhymesApi.swift in Sources */,
+				FF7E2C0A262DCF1B004ADF9D /* SceneDelegate.swift in Sources */,
+				3FE7307D262E2FDD0087F68A /* RhymesResponse.swift in Sources */,
+				FF7E2C1E262DD10B004ADF9D /* ApiClient.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FF7E2C0D262DCF1B004ADF9D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF7E2C0E262DCF1B004ADF9D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FF7E2C12262DCF1C004ADF9D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF7E2C13262DCF1C004ADF9D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF7E2C16262DCF1C004ADF9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FF7E2C17262DCF1C004ADF9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF7E2C19262DCF1C004ADF9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R9K9TQ2P82;
+				INFOPLIST_FILE = Rhymes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.empowrco.Rhymes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FF7E2C1A262DCF1C004ADF9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R9K9TQ2P82;
+				INFOPLIST_FILE = Rhymes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.empowrco.Rhymes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF7E2BFF262DCF1B004ADF9D /* Build configuration list for PBXProject "Rhymes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF7E2C16262DCF1C004ADF9D /* Debug */,
+				FF7E2C17262DCF1C004ADF9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF7E2C18262DCF1C004ADF9D /* Build configuration list for PBXNativeTarget "Rhymes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF7E2C19262DCF1C004ADF9D /* Debug */,
+				FF7E2C1A262DCF1C004ADF9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF7E2BFC262DCF1B004ADF9D /* Project object */;
+}
